@@ -1,0 +1,36 @@
+➜  chains ./script.sh Scope.txt Target.com
+
+    ____ _           _
+   / ___| |__   __ _(_)_ __  ___
+  | |   | '_ \ / _\ | | '_ \/ __|
+  | |___| | | | (_| | | | | \__ \
+   \____|_| |_|\__,_|_|_| |_|___/
+                                0xA1MN
+  Automae Recon Process Using Awesome Tools.
+  Twitter https://twitter.com/0xA1MN
+
+
+Output @ ~/Target.com
+Select path ...
+        [1] Subdomain Enumeration & Waybackurls Analysis
+        [2] + Vulnerability Scanning
+        [3] + Vulnerability Scanning & Port Scanning
+        > 3
+[+] Subdomains Enumeration
+    Crt.sh
+    Assetfinder
+    Subfinder
+    Amass Passive
+    Gobuster vHost
+    Done ... @ ~/Target.com/assets
+[+] URL Gathering
+[+] Parameter Collection
+[+] Spidering
+[+] Screening
+[+] Port Scanning
+    RustScan Done ... @ ~/Target.com/fuzzing/port
+    BruteSpray Done ... @ ~/Target.com/fuzzing/brutespray-output
+[+] Nuclei
+- REDUCTED -
+[+] Jaeles
+- REDUCTED -
